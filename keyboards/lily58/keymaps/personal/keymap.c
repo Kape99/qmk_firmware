@@ -76,7 +76,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
      * |      |      |  F7  |  F8  |  F9  |      |                    |      |      |      |      |Play/P|      |
      * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
-     * |      |      |  F4  |  F5  |  F6  |      |-------.    ,-------|      |      | Vol- | Vol+ |      |      |
+     * |      |      |  F4  |  F5  |  F6  |      |-------.    ,-------| Bri- | Vol- | Vol+ | Bri+ |      |      |
      * |------+------+------+------+------+------|   [   |    |   ]   |------+------+------+------+------+------|
      * |      |      |  F1  |  F2  |  F3  |      |-------|    |-------|      | Mute | Prev | Next |      |      |
      * `-----------------------------------------/       /     \      \-----------------------------------------'
@@ -88,7 +88,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_ADJUST] = LAYOUT(
     _______, XXXXXXX, KC_F10 , KC_F11 , KC_F12 , XXXXXXX,                   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
     _______, XXXXXXX, KC_F7  , KC_F7  , KC_F8  , XXXXXXX,                   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_MPLY, XXXXXXX,
-    _______, XXXXXXX, KC_F4  , KC_F5  , KC_F6  , XXXXXXX,                   XXXXXXX, KC_VOLD, KC_VOLU, XXXXXXX, XXXXXXX, XXXXXXX,
+    _______, XXXXXXX, KC_F4  , KC_F5  , KC_F6  , XXXXXXX,                   KC_BRID, KC_VOLD, KC_VOLU, KC_BRIU, XXXXXXX, XXXXXXX,
     _______, XXXXXXX, KC_F1  , KC_F2  , KC_F3  , XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_MUTE, KC_MPRV, KC_MNXT, XXXXXXX, _______,
                                _______, _______, _______, _______, _______, _______, _______, _______)
 };
